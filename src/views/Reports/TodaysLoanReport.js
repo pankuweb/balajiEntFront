@@ -101,7 +101,7 @@ const MyDocument = (props) => {
                 <View style={styles.section}>
                     <View style={styles.userDetails}>
                         <Text break style={styles.sections}>
-                            Shyam Enterprises
+                            Balaji Enterprises
                         </Text>
                     </View>
                     <View style={styles.tableRow}>

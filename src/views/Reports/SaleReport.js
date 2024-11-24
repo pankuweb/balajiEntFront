@@ -106,7 +106,7 @@ const MyDocument = (props) => {
             <Page size="A4" style={styles.page} wrap>
                 <View style={styles.section}>
                     <View style={styles.userDetails}>
-                        <Text style={styles.sections}>Shyam Enterprises</Text>
+                        <Text style={styles.sections}>Balaji Enterprises</Text>
                     </View>
                     <View style={styles.tableRow}>
                         <Text style={styles.th1}>#</Text>

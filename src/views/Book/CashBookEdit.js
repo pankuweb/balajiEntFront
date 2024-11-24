@@ -98,7 +98,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch(`http://ec2-13-233-225-31.ap-south-1.compute.amazonaws.com:5001/api/v1/book/${id}`, requestOptions)
+fetch(`http://3.110.92.178:5001/api/v1/book/${id}`, requestOptions)
   .then(response => response.json())
   .then(result => setBookData(result?.data?.book))
   .catch(error => console.log('error', error));
@@ -123,7 +123,7 @@ const saveData = () => {
     redirect: 'follow'
     };
 
-    fetch(`http://ec2-13-233-225-31.ap-south-1.compute.amazonaws.com:5001/api/v1/book/${id}`, requestOptions)
+    fetch(`http://3.110.92.178:5001/api/v1/book/${id}`, requestOptions)
     .then(response => response.text())
         .then(result => { 
             toast.success('Data updated successfully!');

@@ -47,7 +47,7 @@ const Header = (props) => {
                         <Grid item>
                             <Box mt={0.5}>
                                 {/* <img src={logo} alt="Logo" /> */}
-                                <h4 style={{ fontFamily: 'cursive' }}>Shyam Enterprises</h4>
+                                <h4 style={{ fontFamily: 'cursive' }}>Balaji Enterprises</h4>
                             </Box>
                         </Grid>
                     </Hidden>

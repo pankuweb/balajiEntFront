@@ -150,7 +150,7 @@ const MyDocument = (props) => {
     return (
         <Document>
             <Page size="A4" style={styles.page} wrap>
-                <Text style={styles.sections}>Shyam Enterprises</Text>
+                <Text style={styles.sections}>Balaji Enterprises</Text>
                 <View style={styles.listss}>
                     <Text style={styles.ath}>Near HDFC Bank,</Text>
                 </View>

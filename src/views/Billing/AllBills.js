@@ -146,7 +146,7 @@ const MyDocument = (props) => {
             <Page size="A4" style={styles.page}>
                 <View style={styles.section}>
                     <View style={styles.userDetails1}>
-                        <Text style={styles.sections}>Shyam Enterprises</Text>
+                        <Text style={styles.sections}>Balaji Enterprises</Text>
                     </View>
                     <View style={styles.listss}>
                         <Text style={styles.ath}>Near HDFC Bank,</Text>
@@ -262,7 +262,7 @@ const CashBookList = () => {
                 redirect: 'follow',
             };
 
-            fetch(`http://ec2-13-233-225-31.ap-south-1.compute.amazonaws.com:5001/api/v1/bills/${id}`, requestOptions)
+            fetch(`http://3.110.92.178:5001/api/v1/bills/${id}`, requestOptions)
                 .then((response) => response.json())
                 .then((result) => {
                     if (result.status == 'success') {
@@ -287,7 +287,7 @@ const CashBookList = () => {
             redirect: 'follow',
         };
 
-        fetch('http://ec2-13-233-225-31.ap-south-1.compute.amazonaws.com:5001/api/v1/bills', requestOptions)
+        fetch('http://3.110.92.178:5001/api/v1/bills', requestOptions)
             .then((response) => response.json())
             .then((result) => setBills(result?.data?.bill))
             .catch((error) => console.log('error', error));
